@@ -12,7 +12,7 @@ string [] StartArray(int size)
 
 }
 
-int CurrentSize (string [] array)
+void CurrentSize (string [] array)
 {
    int current = 0;
    int i = 0;
@@ -25,7 +25,7 @@ int CurrentSize (string [] array)
     }
     else i++;
   }
-  return current;
+Console.WriteLine($"The size of new array: {current}");
 }
 
 void Show2dArray(string [] array) // двумерного массива
@@ -35,8 +35,8 @@ void Show2dArray(string [] array) // двумерного массива
     {
       Console.Write(array[i] + " "); // вывод значений
     }
-    Console.WriteLine();
 }
+Console.WriteLine();
 }
 
 
