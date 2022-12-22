@@ -1,0 +1,15 @@
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/obj/Debug/net6.0/FinalTask.csproj.AssemblyReference.cache
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/obj/Debug/net6.0/FinalTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/obj/Debug/net6.0/FinalTask.AssemblyInfoInputs.cache
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/obj/Debug/net6.0/FinalTask.AssemblyInfo.cs
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/obj/Debug/net6.0/FinalTask.csproj.CoreCompileInputs.cache
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/bin/Debug/net6.0/FinalTask
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/bin/Debug/net6.0/FinalTask.deps.json
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/bin/Debug/net6.0/FinalTask.runtimeconfig.json
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/bin/Debug/net6.0/FinalTask.dll
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/bin/Debug/net6.0/FinalTask.pdb
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/obj/Debug/net6.0/FinalTask.dll
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/obj/Debug/net6.0/refint/FinalTask.dll
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/obj/Debug/net6.0/FinalTask.pdb
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/obj/Debug/net6.0/FinalTask.genruntimeconfig.cache
+/Users/the_ryuk/Desktop/FinalTask/FinalTask/obj/Debug/net6.0/ref/FinalTask.dll
