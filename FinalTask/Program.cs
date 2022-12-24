@@ -11,25 +11,19 @@ string[] StartArray(int size)
 }
 
 
-
-
-
-string[] StringsOfArray(int size, string[] array)
+string[] FinalArray(int size, string[] array)
 {
   string[] finalArray = new string[size];
-  for (int i = 0; i < finalArray.Length; i++)
+  for (int i = 0; i < array.Length; i++)
+    for (int j = 0; j < finalArray.Length; j++)
     {
       if (array[i].Length <= 3)
       {
-        array[i] = finalArray[i];
-        i++;
-      }
-      else i++;
-      
-    }
+         finalArray[j]= array[i];
+      } 
+  }
   return finalArray;
 }
-
 int CurrentSize(string[] array)
 {
   int current = 0;
@@ -73,8 +67,8 @@ string[] newArray = StartArray(size);
 Show2dArray(newArray);
 
 CurrentSize(newArray);
-int a = CurrentSize(newArray);
-Console.WriteLine($"{a}");
+int sizeOfFinalArray = CurrentSize(newArray);
+Console.WriteLine($"{sizeOfFinalArray}");
 
-string[] finalRRAY = StringsOfArray(a, newArray);
+string[] finalRRAY = FinalArray(sizeOfFinalArray, newArray);
 Show2dArray(finalRRAY);
