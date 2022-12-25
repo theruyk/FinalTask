@@ -1,5 +1,5 @@
 ﻿
-string[] StartArray(int size)
+string[] StartArray(int size) // Создание первого массива
 {
   string[] startArray = new string[size];
   for (int i = 0; i < size; i++)
@@ -11,7 +11,7 @@ string[] StartArray(int size)
 }
 
 
-string[] FinalArray(int size, string[] array)
+string[] FinalArray(int size, string[] array) //Создание второго массива 
 {
   int j = 0;
   string[] finalArray = new string[size];
@@ -25,7 +25,7 @@ string[] FinalArray(int size, string[] array)
   }
   return finalArray;
 }
-int CurrentSize(string[] array)
+int CurrentSize(string[] array) // Метод нахождения длины второго массива
 {
   int current = 0;
   int i = 0;
@@ -41,7 +41,7 @@ int CurrentSize(string[] array)
   return current;
 }
 
-void ShowArray(string[] array) 
+void ShowArray(string[] array) //Метод для вывода массивов в консоль 
 {
   for (int i = 0; i < array.Length; i++)
   {
@@ -53,15 +53,15 @@ void ShowArray(string[] array)
 }
 
 
-Console.WriteLine("Imput the size of array");
+Console.WriteLine("Input the size of array");
 int size = Convert.ToInt32(Console.ReadLine());
 
-string[] newArray = StartArray(size);
-ShowArray(newArray);
+string[] startArray = StartArray(size);
+ShowArray(startArray);
 
-CurrentSize(newArray);
-int sizeOfFinalArray = CurrentSize(newArray);
+CurrentSize(startArray);
+int sizeOfFinalArray = CurrentSize(startArray);
 Console.WriteLine($"{sizeOfFinalArray}");
 
-string[] finalRRAY = FinalArray(sizeOfFinalArray, newArray);
-ShowArray(finalRRAY);
+string[] finalArray = FinalArray(sizeOfFinalArray, startArray);
+ShowArray(finalArray);
