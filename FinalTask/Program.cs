@@ -13,13 +13,14 @@ string[] StartArray(int size)
 
 string[] FinalArray(int size, string[] array)
 {
+  int j = 0;
   string[] finalArray = new string[size];
   for (int i = 0; i < array.Length; i++)
-    for (int j = 0; j < finalArray.Length; j++)
     {
       if (array[i].Length <= 3)
       {
          finalArray[j]= array[i];
+         j++;
       } 
   }
   return finalArray;
@@ -37,15 +38,15 @@ int CurrentSize(string[] array)
     }
     else i++;
   }
-  return current;//Console.WriteLine($"{current} ");
+  return current;
 }
 
-void Show2dArray(string[] array) // двумерного массива
+void ShowArray(string[] array) 
 {
   for (int i = 0; i < array.Length; i++)
   {
     {
-      Console.Write(array[i] + " "); // вывод значений
+      Console.Write(array[i] + " "); 
     }
   }
   Console.WriteLine();
@@ -54,21 +55,13 @@ void Show2dArray(string[] array) // двумерного массива
 
 Console.WriteLine("Imput the size of array");
 int size = Convert.ToInt32(Console.ReadLine());
-/*
-Console.WriteLine("Please, fill array" );
 
-string a = Convert.ToString(Console.ReadLine());
-
-string b = Convert.ToString(Console.ReadLine());
-
-string c = Convert.ToString(Console.ReadLine());
-*/
 string[] newArray = StartArray(size);
-Show2dArray(newArray);
+ShowArray(newArray);
 
 CurrentSize(newArray);
 int sizeOfFinalArray = CurrentSize(newArray);
 Console.WriteLine($"{sizeOfFinalArray}");
 
 string[] finalRRAY = FinalArray(sizeOfFinalArray, newArray);
-Show2dArray(finalRRAY);
+ShowArray(finalRRAY);
